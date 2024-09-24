@@ -1,0 +1,138 @@
+@media only screen and (max-width: 991px){
+
+    .full_nav_menu{
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .nav_bar{
+        display: block;
+    }
+
+    .full_nav_menu .nav_links{
+        display: none;
+        width: 100%;
+    }
+
+    .nav_menu .nav_links{
+        padding-top: 50px;
+        flex-direction: column;
+    }
+
+
+    .nav_menu .nav_links ul{
+        width: 100%;
+    }
+
+    
+    .all_nav_icons{
+        width: 100%;
+        text-align: center;
+    }
+
+    .all_nav_links ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .banner_overlay {
+        padding: 280px 0;
+        
+    }
+
+    .upper_footer_card {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .left_lower, .right_lower{
+        width: 100%;
+        justify-content: center;
+    }
+    .lower_footer_container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .left_feature_part {
+        width: 100%;
+    }
+
+    .right_feature_part {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .right_feature_part ul li{
+        margin-bottom: 10px;   
+    }
+
+    .banner_overlay {
+        padding: 230px 0;
+    }
+
+    .banner .carousel-item h1 {
+        font-size: 42px;
+    }
+
+    .banner .carousel-item h2 {
+        font-size: 29px;
+    }
+
+    .service_container .service_card {
+        width: 98%;
+        margin: 20px auto;
+    }
+
+    .inner_project .filter-button-group button {
+        
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .inner_project .grid .element-item {
+        width: 98% !important;
+        margin: 20px auto;
+    }
+
+    .myCounter .counter-flex .counter-box {
+        width: 20%;
+        /* margin-bottom: 20px; */
+    }
+
+    .myCounter .counter-flex .counter-box i {
+        font-size: 20px;
+    }
+
+    .myCounter .counter-flex .counter-box h3 {
+        font-size: 24px;
+    }
+
+    .myCounter .counter-flex .counter-box p {
+        font-size: 10px;
+    }
+
+    .upper_footer_card {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .video_overlay {
+        width: 80%;
+    }
+
+    .project_header h2 {
+        font-size: 25px;
+    }
+
+    .banner_overlay {
+        padding: 130px 0;
+    }
+}
